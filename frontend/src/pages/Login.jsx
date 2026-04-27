@@ -28,7 +28,7 @@ return;
 try{
 
 const response = await axios.post(
-"https://netflix-login-page-clone-2.onrender.com",
+"https://netflix-login-page-clone-2.onrender.com/login",
 {
 email:email,
 password:password
